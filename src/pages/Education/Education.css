@@ -1,0 +1,55 @@
+/* Background and spacing */
+.education-section {
+    padding: 80px 20px;
+    background: #607EAA; /* Matches the project theme */
+    text-align: center;
+}
+
+/* Title Styling */
+.education-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FECDA6; /* Warm Beige */
+    margin-bottom: 30px;
+}
+
+/* Card Styling */
+.education-card {
+    background: #47597E; /* Slightly darker than background */
+    color: #F8F9FA;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    margin-bottom: 20px; /* Spacing between cards */
+    border-radius: 15px;
+}
+
+/* Hover effect for cards */
+.education-card:hover {
+    transform: scale(1.02);
+    background: #2F3E75; /* Slightly darker on hover */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Degree Title */
+.degree {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FECDA6; /* Accent color */
+}
+
+/* Duration */
+.duration {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #F8F9FA;
+}
+
+/* Additional Details */
+.details {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #E6B57A;
+}
