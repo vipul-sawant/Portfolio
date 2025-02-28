@@ -10,7 +10,7 @@ function App() {
   
   const router = createBrowserRouter([
 	{
-		path: "/Portfolio/",
+		path: "/",
 		element: <Layout />,
 		children: [
 			{
@@ -35,7 +35,7 @@ function App() {
 			},
 		]
   }
-]);
+], { basename: "/Portfolio" });
 
   return (
     <>
